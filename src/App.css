@@ -36,3 +36,58 @@
   font-family: "Poppins", sans-serif;
   white-space: nowrap;
 }
+.store {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  margin: 10px;
+}
+.searchBar {
+  border: 2px solid #c2185b;
+  padding: 8px;
+  border-radius: 25px;
+  font-family: "Poppins", sans-serif;
+  margin: 8px;
+}
+input[type="search"] {
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 2vw;
+  box-shadow: none;
+  font-family: "Poppins", sans-serif;
+  color: gray;
+}
+input[type="search"]::placeholder {
+  font-size: 1.3vw; /* Set a smaller size than the input text */
+  color: gray; /* Optional: Change placeholder color */
+  opacity: 0.8; /* Optional: Adjust transparency */
+  font-family: "Poppins", sans-serif;
+}
+.store-container {
+  display: flex;
+  flex-wrap: wrap; /* Allows divs to move to next row */
+  gap: 16px;
+}
+.toy-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the items */
+  justify-content: center;
+  width: 170px; /* Set a fixed width for the entire card */
+  border: 1px solid #c2185b;
+  border-radius: 10px;
+}
+.toy-image {
+  width: 100%; /* Makes sure image takes full width of parent */
+  height: auto;
+  border-radius: 5px;
+}
+
+.toy-details {
+  width: 100%; /* Makes sure text div takes full width of parent */
+  text-align: left; /* Centers text */
+  word-wrap: break-word;
+}
