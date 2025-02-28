@@ -1,0 +1,38 @@
+.logo {
+  /* Controls the max width, but allows scaling */
+  height: auto;
+  object-fit: contain;
+  width: 90px;
+}
+.nav-logo {
+  background-color: transparent;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  background-color: #f8f8f8;
+  background: linear-gradient(to bottom, #f8f8f8, #e0e0e0); /* Soft depth */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Light elevation */
+  justify-content: space-between;
+  overflow: hidden;
+  align-items: center;
+}
+.nav-links ul {
+  display: flex;
+  align-items: center; /* Makes li items center in ul */
+}
+.nav-links ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  max-width: 30%;
+  text-align: center;
+}
+.nav-links ul li a {
+  text-decoration: none;
+  color: #c2185b;
+  font-family: "Poppins", sans-serif;
+  white-space: nowrap;
+}
